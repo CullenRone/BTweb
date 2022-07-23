@@ -1,0 +1,143 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+   background-color: #33abe5;
+   color: blue;
+   text-align: center;
+   text-transform: uppercase;
+   margin: 0;
+   padding: 0;
+}
+
+
+div.center{
+    font-size: 3rem;
+    margin-top: -5%;
+}
+
+div.head{
+    overflow: auto;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+div.head>div>img{
+    width: 100%;
+}
+.images{
+    width: 10%;
+}
+
+div.head > div > img {
+    width: 100%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+section.menu{
+    background-color: rgba(14, 245, 226, 0.637);
+}
+
+section.menu>ul{
+    display: flex;
+    margin: 1px;
+}
+
+.clearfix{
+    overflow: hidden;
+}
+
+.left{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+section.menu > ul >li{
+    list-style-type: none;
+    text-align: center;
+    min-width: 120px;
+    border-left: 1px solid white;
+    padding: 10px 15px;
+}
+
+section.menu >ul >li >a {
+    padding: 15px 8px;
+    text-decoration: none;
+}
+
+section.Participation{
+    display: flex;
+}
+
+section.contentleft{
+    width: 40%;
+    display: block;
+    text-align: center; 
+    padding-top: 1px;
+}
+
+section.contentleft > h3 {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+section.contentleft > h4{
+    margin: 0;
+    padding-top: 1rem;
+}
+
+section.contentleft > p{
+    margin: 0;
+    padding-top: 1rem;
+}
+section.contentright{
+    width: 60%;
+}
+
+a.button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #33abe5;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+footer > div > img{
+    width: 100%;
+}
+
+.lastimage{
+    width: 25%;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(7, 56, 45);
+    color: black;
+    position: fixed;
+    left: 0;
+    right:0;
+    bottom: 0;
+    padding: 10px 0px;
+}
+
+footer > div > img{
+    width: 100%;
+    border-radius: 50%;
+}
+
